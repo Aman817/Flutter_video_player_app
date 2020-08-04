@@ -34,11 +34,7 @@ class _NetworkState extends State<Network> {
               'https://flutter.github.io/assets-for-api-docs/assets/videos/butterfly.mp4',
             ),
           ),
-          ChewieListItem(
-            videoPlayerController: VideoPlayerController.network(
-              'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-            ),
-          ),
+          
         ],
       ),
     );
